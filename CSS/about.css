@@ -2,37 +2,45 @@ body {
   padding: 0px;
   margin: 0px;
 }
-.nav-bar{
-    background-color: #1d3f86;
-    font-size: x-large;
-    color: white;
+.nav-bar {
+  background-color: #1d3f86;
+  font-size: x-large;
+  color: white;
 }
-.nav-bar ul li{
-    display: inline-block;
-    padding: 40px;
+.nav-bar ul li {
+  display: inline-block;
+  padding: 40px;
 }
-.Content{
+.Content {
+  display: flex;
+  float: left;
+}
+button {
+  cursor: pointer;
+  color:#1d3f86;
+}
+.para {
+  margin-left: 30%;
+  font-size: larger;
+  font-style: normal;
+  width: fit-content;
+}
+h1 {
+  padding: 20px;
+  color: white;
+  background-color: #1d3f86;
+  width: fit-content;
+}
+.Address {
+  margin-top: 170px;
+  color: #1d3f86;
+}
+.Address p {
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 700;
+}
+h2{
     display: flex;
-    float: left;
-}
-button{
-    cursor: pointer;
-    color: blue;
-}
-.para{
-    border: 3px solid blue;
-    margin-left: 30%;
-    font-size: larger;
-    font-style: normal;
-    width: fit-content;
-}
-h1{
-    padding: 20px;
-    color: white;
-    background-color: blue;
-    width: fit-content;
-}
-.Address p{
-    border: 1px solid red;
-    margin-top: 200px;
+    justify-content: center;
 }
