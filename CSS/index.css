@@ -16,7 +16,6 @@ body {
   float: left;
 }
 .Mission {
-  border: 1px solid red;
   margin-left: 10%;
   font-size: large;
   font-style: normal;
@@ -30,8 +29,12 @@ button {
   color: blue;
   cursor: pointer;
 }
-.partners{
-   display: inline-block;
-   padding: 40px;
-   justify-content: space-around;
+#head {
+  padding-left: 35%;
+  font-size: xx-large;
+  padding-top: 30%;
+}
+#partners {
+  display: flex;
+  justify-content: space-between;
 }
