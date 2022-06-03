@@ -11,19 +11,27 @@ body {
   display: inline-block;
   padding: 40px;
 }
-.Content{
-    display: flex;
-    float: left;
+.Content {
+  display: flex;
+  float: left;
 }
-.Mission{
-    border: 1px solid red;
-    margin-left: 10%;
+.Mission {
+  border: 1px solid red;
+  margin-left: 10%;
+  font-size: large;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
 }
-.Mission h3 p{
-    display: contents;
-    justify-content: center;
+.Mission h3 p {
+  display: contents;
+  justify-content: center;
 }
-button{
-    color:blue;
-    cursor: pointer;
+button {
+  color: blue;
+  cursor: pointer;
+}
+.partners{
+   display: inline-block;
+   padding: 40px;
+   justify-content: space-around;
 }
