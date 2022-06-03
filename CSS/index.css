@@ -16,11 +16,12 @@ body {
   float: left;
 }
 .Mission {
-  margin-left: 10%;
-  font-size: large;
+  margin-left: 4%;
+  font-size: x-large;
   font-style: normal;
   font-family: "Times New Roman", Times, serif;
 }
+
 .Mission h3 p {
   display: contents;
   justify-content: center;
@@ -37,4 +38,13 @@ button {
 #partners {
   display: flex;
   justify-content: space-between;
+}
+.footer{
+    background-color: #1d3f86;
+    color: azure;
+}
+li{
+    display: inline-block;
+    padding: 40px;
+
 }
