@@ -1,0 +1,12 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-bar {
+  background-color: #1d3f86;
+  color: white;
+  font-size: large;
+}
+.nav-bar ul li{
+    display: inline-block;
+}
