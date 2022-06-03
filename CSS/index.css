@@ -23,3 +23,7 @@ body {
     display: contents;
     justify-content: center;
 }
+button{
+    color:blue;
+    cursor: pointer;
+}
