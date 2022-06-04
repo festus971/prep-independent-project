@@ -2,8 +2,37 @@ body {
   padding: 0px;
   margin: 0px;
 }
-.nav-bar{
-    background-color: #1d3f86;
-    font-size: large;
-    color: white;
+.nav-bar {
+  background-color: #1d3f86;
+  font-size: large;
+  color: white;
+}
+.nav-bar ul li {
+  display: inline-block;
+  padding: 50px;
+}
+.whole {
+  width: 375px;
+  height: 532px;
+  left: 751px;
+  top: 287px;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+.left {
+}
+.welcome {
+  width: 167px;
+  height: 40px;
+  left: 29px;
+  top: 29px;
+}
+.welcome p {
+  width: 75%;
+}
+.right h4 {
+  color: #0330a6;
 }
