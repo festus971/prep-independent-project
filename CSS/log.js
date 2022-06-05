@@ -1,3 +1,4 @@
+element.addEventListner("click", logIn);
 function logIn() {
-  alert("please enter your Credentials!");
+  alert("fill in your details please!");
 }
